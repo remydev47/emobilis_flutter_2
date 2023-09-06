@@ -1,3 +1,4 @@
+void main() {
 //Create a list (shopping List)
   List<String> shoppingList = [];
   //Adding Items to the List
@@ -9,7 +10,7 @@
   shoppingList.add("Passion Fruit");
   //Access all the Items
   print("Items on the Shopping List:");
-  for(String item in shoppingList){
+  for (String item in shoppingList) {
     print(item);
   }
   //removing an Item(element) from the List
@@ -18,7 +19,7 @@
   shoppingList[2] = "Grapes";
   //check the Updated List
   print("\nUpdated Shopping List");
-  for(String item in shoppingList){
+  for (String item in shoppingList) {
     print(item);
   }
-  
+}
