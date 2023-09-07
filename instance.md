@@ -22,3 +22,25 @@ class Cookie {
     return "$flavor Cookie: \$${price.toStringAsFixed(2)} - $availability";
   }
 }
+
+void main() {
+  //Lists and Arrays
+  List <String> shoppingList = [];
+  //Adding Items on Our Shopping List
+  shoppingList.add("Apples");//index 0
+  shoppingList.add("Bananas");//index 1
+  shoppingList.add("Oranges");//index2
+  shoppingList.add("Potatoes");//index3
+  //Access Items On my Shopping List
+  print("Items on the Shopping Cart");
+  for ( String item in shoppingList){
+    print(item);
+  }
+  //Change an item(element)
+  shoppingList[3] = "Grapes";
+  //Updated Shopping List
+  print("\nUpdated Shopping Cart");
+  for (String item in shoppingList){
+    print(item);
+  }
+}
